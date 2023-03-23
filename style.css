@@ -1,0 +1,32 @@
+body{
+    background-color: greenyellow;
+    font-family: 'Inspiration', cursive;
+    font-size: 20px;
+}
+.Heading{
+    background-color: red;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+.main button{
+    font-family: 'Sacramento', cursive;
+margin-top: 30px;
+width: 130px;
+font-weight: bolder;
+letter-spacing: 3px;
+}
+.footer{
+    bottom:0;
+    position: fixed;
+    color:white;
+    background-color: red;
+    line-height: 3;
+    width:100%;
+text-align: center;
+text-shadow: 6px 6px 6px blueviolet;
+font-size: 15px;
+font-family: 'Tangerine', cursive;
+}
+#result_confidence{
+    font-size: 30px;
+}

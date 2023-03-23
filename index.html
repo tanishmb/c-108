@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Inspiration&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script&family=Inspiration&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script&family=Inspiration&family=Sacramento&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script&family=Inspiration&family=Sacramento&family=Tangerine&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="col-xs-12 text-center Heading">
+<h1>sound controlled Animals</h1>
+<p>Note- play diffrent sounds</p>
+    </div>
+    <div class="main">
+      <center>
+<br>
+<button onclick="startClassification()" class="btn btn-info">START</button>
+<h3 id="result_label">I CAN HEAR</h3>
+<h5 id="result_confidence">Accuracy</h5>
+<br>
+<img src="0.jpg" id="ear">
+      </center>
+    </div>
+    <div class="footer">
+      developed by Tanish
+    </div>
+<script src="main.js"></script>
+  </body>
+</html>
